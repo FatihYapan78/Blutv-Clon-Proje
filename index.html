@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BluTV - Türkiyenin İnternet Televizyonu</title>
+    <!-- Title İcon -->
+    <link rel="shortcut icon" href="img/favicon.webp" type="image/x-icon">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+      html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    @media (max-width: 760px) {
+      .swiper-button-next {
+        right: 20px;
+        transform: rotate(90deg);
+      }
+
+      .swiper-button-prev {
+        left: 20px;
+        transform: rotate(90deg);
+      }
+      .swiper-button-next:hover{
+        opacity: 50%;
+      }
+    }
+    </style>
+</head>
+<body>
+        <!-- Navbar -->
+        <div class="nav">
+            <a href="#" class="logo"><span>blutv</span></a>
+            <a href="uyegirisi.html">Üye Girişi</a>
+        </div>
+        <!-- Container-fluid -->
+        <div class="container-fluid uye-ol d-flex">
+            <div class="col-2">
+                <p class="deneme">
+                    Yıllık Üyeliklerde <br>
+                    İlk 7 Gün Ücretsiz <br>
+                    Deneme
+                </p>
+            </div>
+                <div class="col-6">
+                    <form>
+                        <input type="text" placeholder="Ad Soyad">
+                        <input type="email" placeholder="E-Posta Adresi">
+                        <input type="password" placeholder="Parola">
+                        <div class="form-check text-white mt-4 izin">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        <a href="#" class="text-white">İletişim izinlerini</a> ve <a href="#" class="text-white">üyelik sözleşmesini</a> okuduğunuzu ve kabul ettiğinizi onaylıyorsunuz.
+                        </label> 
+                    </div>
+                    </form>
+                </div>
+                <div class="col-3 d-flex">
+                <a href="#" class="btn btn-info buton">Ücretsiz Dene</a>
+                <p>ya da</p>
+                <a href="#"><img src="https://img.icons8.com/color/48/null/facebook-new.png" class="icon"/></a>
+                <a href="#"><img src="https://img.icons8.com/color/48/null/google-logo.png" class="icon"/></a>
+                <a href="#"><img src="https://img.icons8.com/metro/26/null/mac-os.png" class="icon"/></a>
+                </div>
+        </div>
+        <!-- Hero-İmage -->
+        <div class="hero-image">
+            <div class="container-fluid p-0">
+                <div class="hero-text">
+                    <h1 class="fs-1">Türkiye'nin İnternet Televizyonu</h1>
+                <p class="fs-5">
+                    Yerli ve yabancı 10.000 saatten fazla <br> içerik yıllık üyeliklere özel ayda sadece <br> ₺29.9
+                </p>
+                <p class="text-muted">*Yıllık aboneliklerde</p>
+                <p class="fs-5 mt-5">İstediğin zaman iptal et.</p>
+                <a href="#" class="btn btn-light text-black buton2">Ücretsiz Dene</a>
+                </div>
+        </div>
+    </div>
+    <!-- Posterler -->
+        <div class="swiper ozel poster">
+          <h4 class="text-center text-white">BluTV Özel Yapımlar</h4>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide ms-5">
+              <img src="img/post1.webp" alt="poster">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/post2.webp" alt="poster">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/post3.webp" alt="poster">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/post4.webp" alt="poster">
+          </div>
+            <div class="swiper-slide">
+              <img src="img/post5.webp" alt="poster">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/post6.webp" alt="poster">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/post7.webp" alt="poster">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/post8.webp" alt="poster">
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <!-- Ekranlar -->
+        <div class="container-fluid ozel">
+        <h3 class="text-center text-white pt-5 pb-2">Dilediğin Zaman, Dilediğin Yerden İzle</h3>
+        <div class="row">
+            <img src="img/Ekranlar.webp" alt="erkanlar" class="w-75 m-auto">
+        </div>
+        <div class="row d-flex m-auto text-white mt-5  ekranlar">
+            <div class="col-3 border-4 border-start border-primary">
+                <p>10.000 saatten fazla film, dizi <br> ve daha fazlası.</p>
+            </div>
+            <div class="col-3 border-4 border-start border-primary">
+                <p>Dizüstü ve masaüstü tüm <br> bilgisayarlarda</p>
+            </div>
+            <div class="col-3 border-4 border-start border-primary">
+                <p>Akıllı televizyonlarda ve <br> Apple TV’de</p>
+            </div>
+            <div class="col-3 border-4 border-start border-primary">
+                <p>Tüm telefon ve tabletlerde, <br> dilediğin içeriği indir & izle!</p>
+            </div>
+        </div>
+        <!-- Kanallar -->
+        <div class="row ms-5 me-5">
+            <h3 class="text-center text-white pt-5 pb-2 kanal">En Sevilen Canlı Yayın Kanalları</h3>
+            <div class="col text-center">
+                <div class="card p-4" style="width: 100%;">
+                    <a href="#"><img src="img/kanald.webp" class="card-img-top" alt="kanal"></a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card p-4" style="width: 100%;">
+                    <a href="#"><img src="img/show.webp" class="card-img-top" alt="kanal"></a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card p-4" style="width: 100%;">
+                    <a href="#"><img src="img/trt.webp" class="card-img-top" alt="kanal"></a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card p-4" style="width: 100%;">
+                    <a href="#"><img src="img/star.webp" class="card-img-top" alt="kanal"></a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card p-4" style="width: 100%;">
+                    <a href="#"><img src="img/fox.webp" class="card-img-top" alt="kanal"></a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card p-4" style="width: 100%;">
+                    <a href="#"><img src="img/kanal2.webp" class="card-img-top" alt="kanal"></a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card p-4" style="width: 100%;">
+                    <a href="#"><img src="img/kanal3.webp" class="card-img-top" alt="kanal"></a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card p-4" style="width: 100%;">
+                    <a href="#"><img src="img/kanal1.webp" class="card-img-top" alt="kanal"></a>
+                </div>
+            </div>
+        </div>
+        <!-- Hero-İmage-2 -->
+       <div class="row mt-5 ">
+        <div class="col-6 hero-image-2">
+        </div>
+        <div class="col-6 text-white text">
+            <h3>BluTV yıllık aboneliklerde ayda sadece ₺29.9</h3>
+                <p class="mt-5 fs-5">10.000 saatten fazla film, dizi ve daha fazlası. Tek tuşla iptal edebilme kolaylığı. </p>
+                <p class="mt-5 fs-6 icon1">Blutv Özel Yapım Diziler ve Programlar </p>
+                <p class="mt-5 fs-6 icon2">Yerli ve Yabancı En Çok Sevilen Dizi ve Filmler </p>
+                <p class="mt-5 fs-6 icon3">Altyazı & Dublaj ve HD kalitesiyle</p>
+            <button class="btn btn-light text-black mt-3 py-3 px-5">Yıllık Üyelikle, 7 Gün Ücretsiz Dene</button>
+        </div>
+       </div>
+       <!-- Posterler-2 -->
+       <div class="swiper ozel poster">
+        <h4 class="text-center text-white">BluTV Özel Yapımlar</h4>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide ms-5">
+            <img src="img/post1.webp" alt="poster">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/post2.webp" alt="poster">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/post3.webp" alt="poster">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/post4.webp" alt="poster">
+        </div>
+          <div class="swiper-slide">
+            <img src="img/post5.webp" alt="poster">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/post6.webp" alt="poster">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/post7.webp" alt="poster">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/post8.webp" alt="poster">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+       <!-- Keşfet -->
+       <div class="row kesfet ms-5 me-5">
+        <h3 class="text-center text-white pt-5 pb-2">BluTV'de Daha Fazlasını Keşfet</h3>
+            <div class="col-2">
+                <a href="#" class="btn rounded-5">Filmler</a>
+            </div>
+            <div class="col-2">
+                <a href="#" class="btn rounded-5">Diziler</a>
+            </div>
+            <div class="col-2">
+                <a href="#" class="btn rounded-5">Canlı TV</a>
+            </div>
+            <div class="col-2">
+                <a href="#" class="btn rounded-5">Discovery+</a>
+            </div>
+            <div class="col-2">
+                <a href="#" class="btn rounded-5">Çocuk</a>
+            </div>
+            <div class="col-2">
+                <a href="#" class="btn rounded-5">Belgeseller</a>
+            </div>
+        </div>
+        <!-- Accordion -->
+        <div class="row mx-5 mt-5">
+          <h3 class="text-center text-white pt-5 pb-2">Sıkça Sorulan Sorular</h3>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" data-bs-accordion-active-color="#081329">
+                      BluTV Nedir?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">BluTV istediğiniz zaman, istediğiniz yerden, birbirinden farklı dizi, film ve canlı yayını reklamsız izlemenizi sağlayan, Doğan Holding çatısı altında kurulmuş bir dijital televizyondur.İnternet bağlantısı ile bilgisayar, tablet, mobil cihazlar ya da akıllı televizyonlar (Smart TV)* üzerinden her ay güncellenen yerli/yabancı film ve dizilere, canlı TV yayınına, spor, yaşam içeriklerine ve en önemlisi sadece BluTV'de bulabileceğiniz BluTV üyelerine özel yerli yapımlara kolayca ulaşabilirsiniz.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Blutv'yi Nasıl Satın Alabilirim?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">BluTV aboneliğinizi kredi/banka kartı bilgilerinizi sisteme girerek başlatabilirsiniz. .</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      BluTv Aboneliğine Neler Dahildir?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">BluTV, üyelerine istedikleri zaman, istedikleri yerden zengin bir içeriğe ulaşabilme özgürlüğü sunar. Bilgisayar, cep telefonu ve tablet gibi mobil cihazlar (iOS ve Android), akıllı TV (Smart TV), Apple TV ve Android Box cihazları üzerinden sürekli güncellenen içerikleri reklamsız sınırsız dilediğiniz kadar izlemenizi sağlar.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      BluTv Aboneliğimi Nasıl İptal Ederim?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Tek tuşla. BluTV'de taahhüt yoktur. Dilediğiniz an, hesabım menüsü altından aboneliğinizi sonlandırabilirsiniz. İptal etmeniz durumunda herhangi bir cayma bedeli ödemezsiniz. Ödemesini yaptığınız dönemin sonunda aboneliğiniz durdurulur.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      BluTv İle Nasıl İletişime Geçebilirim?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">0850 210 52 58 iletişim numarasından veya destek@blutv.com adresinden bizlere ulaşabilirsiniz.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                      BluTv Kupon Kodumu Nasıl Kullanabilirim?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">BluTV kupon kodunuzu https://www.blutv.com/kupon adresi üzerinden kullanabilirsiniz. Kupon kodu giriş ekranı öncesinde mevcut BluTV hesabınızla giriş yapabilir veya yeni bir BluTV hesabı oluşturabilirsiniz.</div>
+                  </div>
+                </div>
+              </div>
+              <p class="text-white mt-4 ms-3 mb-5 pb-5 fs-5">Aradığınızı bulamadınız mı? Bir sorunuz var ise <a href="#">Yardım Merkezini</a> ziyaret edin.</p>
+        </div>
+       </div>
+       <!-- Footer -->
+       <footer class="footer">
+        <a href="#" class="text-muted border-end border-1 border-secondary me-2 pe-2">Kupon Kodu Kullan</a>
+        <a href="#" class="text-muted border-end border-1 border-secondary me-2 pe-2">Gizlilik Politikası</a>
+        <a href="#" class="text-muted border-end border-1 border-secondary me-2 pe-2">Çerez Politikası</a>
+        <a href="#" class="text-muted border-end border-1 border-secondary me-2 pe-2 apple">App Store</a>
+        <a href="#" class="text-muted border-end border-1 border-secondary me-2 pe-2 google">Google Play</a>
+        <a href="#" class="text-muted border-end border-1 border-secondary me-2 pe-2 huawei">Huawei App Galery</a>
+        <a href="#" class="text-white"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="text-white ms-2"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="text-white ms-2"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="text-white border-end border-1 border-secondary me-2 pe-2 ms-2"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" class="text-muted">Yardım Merkezi</a>
+    
+       </footer>
+
+
+
+
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/6c4ce97bc5.js" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- Swiper Js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+ var swiper = new Swiper('.swiper', {
+      slidesPerView: 4,
+      direction: getDirection(),
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on: {
+        resize: function () {
+          swiper.changeDirection(getDirection());
+        },
+      },
+    });
+
+    function getDirection() {
+      var windowWidth = window.innerWidth;
+      var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+      return direction;
+    }
+</script>
+</body>
+</html>

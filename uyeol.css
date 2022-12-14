@@ -1,0 +1,144 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Genel Ayarlar */
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    /* background-color:  #081329; */
+    width: 100%;
+    height: 100%;
+}
+/* Nav */
+
+.nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 36px;
+    opacity: 100%;
+    /* position: absolute; */
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav .logo span{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.musteri::before{
+    content: "\1F57E";
+    font-size: 25px;
+}
+
+/* Hero-İmage */
+.hero-image{
+    background-image: linear-gradient(rgba(8,19,41,0.85),rgb(8, 19, 41,0.85)),url(img/uyelik.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+/* Container */
+.container{
+    position: absolute;
+    top: 53%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    width: 384px;
+    height: 880px;
+}
+.container .form{
+    width: 384px;
+    height: 420px;
+    font-size: 14px;
+}
+.container .form a{
+    color: #3b82f6;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.form span::before{
+    content: "\20BA";
+}
+
+.container .form input{
+    display: block;
+    width: 384px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+}
+.container input:focus{
+    outline: none;
+}
+.container .sosyal{
+    width: 290px;
+    height: 45px;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+    color: #757575;
+    font-size: 14px;
+    padding: 10px 35px;
+}
+.container .kayit{
+    width: 384px;
+    height: 45px;
+    margin: auto;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    /* margin-top: 25px; */
+}
+.container .sozlesme{
+    font-size: 14px;
+    float: left;
+    color: #AEB1B2;
+}
+.form-check input{
+    width: 16px;
+    height: 16px;
+    border: 2px solid gray;
+    cursor: pointer;
+    padding: 0;
+    margin: 2px 0px 0px  0px !important;
+}
+.form-check-label{
+    font-size: 14px;
+    height: 30px;
+    float: left;
+    margin-left: 5px;
+}
+.container .alt p{
+    color: #AEB1B2;
+    font-size: 13px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.simdi{
+    font-size: 14px;
+}
+.simdi a{
+    text-decoration: none;
+    color: #3b82f6;
+}
+@media(max-width:585px){
+    .nav{
+        padding: 14px 5px;
+    }
+}

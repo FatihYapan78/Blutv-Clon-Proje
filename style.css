@@ -1,0 +1,225 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #111b3e;
+}
+
+/* Nav */
+
+.nav{
+    height: 54px;
+    background-color: #081329;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 36px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav .logo span{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+/* Uye ol */
+.uye-ol{
+    height: 125px;
+    background-image: linear-gradient(to right, rgb(37,50,113),rgb(16,26,72));
+    padding: 22px 35px 5px;
+}
+.uye-ol p{
+    color: #ffff;
+    font-size: 13px;
+    margin: 10px 0 0 10px;
+}
+.uye-ol .deneme{
+    color: #ffff;
+    font-weight: 400;
+    width: 300px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.uye-ol input{
+    width: 285px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffff;
+    padding: 8px 12px;
+    margin-left: 10px;
+}
+.uye-ol .buton{
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+    width: 160px;
+    height: 45px;
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 12px ;
+}
+
+.uye-ol .izin input{
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    padding: 0;
+    border: 2px solid grey;
+    border-radius: 0;
+}
+
+.icon{
+    background-color: #ffff;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 8px 8px;
+}
+/* Hero-İmage */
+.hero-image{
+    background-color: #081329;
+    background: linear-gradient(180deg,rgba(8,19,41,0) 20%,rgb(8, 19, 41) 90%),url(img/arkaplan.webp);
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-image img{
+    width: 100vw;
+    height: 90vh;
+    opacity: 75%;
+}
+
+.hero-text{
+    padding: 0 60px;
+    margin-top: 250px;
+    color: white;
+    position: absolute;
+}
+.hero-text .buton2{
+    width: 272px;
+    height: 45px;
+    padding: 10px;
+}
+
+/* Posterler */
+.ozel{
+    background-color: #081329;
+}
+.poster .card{
+    border: none;
+}
+.poster img{
+    border: 3px solid #2e2e42;
+}
+.poster img:hover{
+    opacity: 75%;
+}
+.swiper-slide{
+    width: 440px !important;
+    height: 750px;
+}
+.swiper{
+    height: 780px !important;
+    background-color: #081329 !important;
+}
+
+/* Ekranlar */
+.ekranlar{
+    width: 90%;
+}
+
+/* Kanallar */
+.kanal .card{
+    width: 205px;
+    height: 105px;
+}
+.col .card img{
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+
+/* Hero-İmage-2 */
+.hero-image-2{
+    background-image: linear-gradient(90deg,rgba(8,19,41,0),#081329 100%),url(img/abonelik.webp);
+    width: 932px;
+    height: 621px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    padding: 100px 60px;
+}
+.text .icon1::before{
+    content: "\1F451";
+}
+.text .icon2::before{
+    content: "\1F4FA";
+}
+.text .icon3::before{
+    content: "\1F48E";
+}
+
+/* Keşfet */
+.kesfet a{
+    width: 270px;
+    height: 52px;
+    font-size: 18px;
+    margin-top: 30px;
+    background-color: #2d3649;
+    color: white;
+    padding: 12px;
+}
+.kesfet a:hover{
+    background-color: #2d3649;
+    color: white;
+}
+
+/* Accordion */
+.accordion .accordion-button,.accordion-body{
+    background-size: cover;
+    background-color: #081329;
+    color: white;
+}
+.accordion-button{
+    font-size: 18px;
+    --bs-accordion-btn-focus-border-color: #2e2f41 !important;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #FFF !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #FFF !important;
+  }
+.accordion-body{
+    font-size: 16px;
+}
+.accordion-item{
+    margin-top: 15px;
+}
+/* Footer */
+.footer{
+    background-color: #2e2f41;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    padding: 10px 40px;
+    z-index: 99;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 14px;
+}
